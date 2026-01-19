@@ -1,2 +1,2 @@
- console.log("Hello JS")
- document.write("This is External JavaScript")
+console.log("External Example")
+document.write("External Example")
