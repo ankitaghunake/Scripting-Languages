@@ -1,0 +1,23 @@
+
+
+//electricity bill
+document.write("<br><br>");
+
+let bill = 0;
+let units = parseInt(prompt("Enter units"));
+
+if (units<=100) {
+  bill = units*1;
+} 
+else if (units<=200) {
+  bill = (100*1) + (units-100)*2;
+} 
+else {
+  bill = (100*1) + (100*2) + (units-200)*3;
+}
+
+document.write(`Electricity bill = ${bill} `);
+
+  </script>
+</body>
+</html>
