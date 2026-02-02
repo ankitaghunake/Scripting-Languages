@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Information</title>
+</head>
+<body>
+<script>
+class Student {
+  constructor(name, rollno, age, grade) {
+    this.name = name;
+    this.rollno = rollno;
+    this.age = age;
+    this.grade = grade;
+  }
+
+  display() {
+    console.log("Student Name: " + this.name);
+    console.log("Student Rollno: " + this.rollno);
+    console.log("Student Age: " + this.age);
+    console.log("Student Grade: " + this.grade);
+  }
+}
+
+let nameInput = prompt("Enter the Name of student:");
+let rollnoInput = prompt("Enter the Roll No:");
+let ageInput = prompt("Enter the Age:");
+let gradeInput = prompt("Enter the Grade:");
+
+const student1 = new Student(nameInput, rollnoInput, ageInput, gradeInput);
+student1.display();
+</script>
+</body>
+</html>
